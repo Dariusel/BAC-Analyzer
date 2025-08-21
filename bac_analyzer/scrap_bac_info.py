@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 from bac_analyzer.utils.elev import Elev
 from bac_analyzer.utils.logger import init_logger
-from bac_analyzer.utils.file_paths import JUDETE_LOCATION, TABLE_DATA_INDEX_LOCATION, SQL_ELEVI_DATABASE
+from bac_analyzer.utils.file_paths import JUDETE_LOCATION, SQL_ELEVI_DATABASE
 from bac_analyzer.utils.scrap_bac_info_utils import get_return_data, init_elevi_database, insert_elevi_to_db, check_if_db_has_year_page_judet, parse_row_content
 
 

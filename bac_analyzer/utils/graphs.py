@@ -68,7 +68,7 @@ def box_plot(df, year, county):
     # Format x-axis
     fig.update_xaxes(range=[5, 10.1], tickformat=".2f")
 
-    fig.write_image(f'figures/{year}-medii-judete-box.png', scale=2)
+    #fig.write_image(f'figures/{year}-medii-judete-box.png', scale=2)
     fig.show()
 
 

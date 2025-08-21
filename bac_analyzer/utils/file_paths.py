@@ -1,6 +1,23 @@
 import os
 
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+import bac_analyzer
+
+
+
+
+def get_root_dir():
+    file_dir = os.path.dirname(bac_analyzer.__file__)
+    root_dir = ''
+    if 'site-packages' in file_dir.lower(): # Normal Install
+        root_dir = os.path.abspath(os.path.join(file_dir, '..', '..', '..', '..'))
+    else: # Editable Install
+        root_dir = os.path.abspath(os.path.join(file_dir, '..'))
+
+    return root_dir
+
+
+
+ROOT_DIR = get_root_dir()
 
 JUDETE_LOCATION = os.path.join(ROOT_DIR,
                                'resources',

@@ -1,0 +1,5 @@
+# Include all package files
+graft bac_analyzer
+
+# Exclude the database file from being packaged
+exclude elevi.db

@@ -52,7 +52,10 @@
 ```bash
 # Create and activate a virtual environment (optional but recommended)
 python -m venv venv
-venv\Scripts\activate
+venv\Scripts\activate # Activate virtual environment always before running `bac-analyzer`
+
+# Install required packages
+pip install -r requirements.txt
 
 # Install the package
 pip install . # Use '-e .' if you want to develop further
