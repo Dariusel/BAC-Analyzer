@@ -18,9 +18,9 @@
 ### 🖼️ Graphs Demo:
 
 <p align="center">
-  <img src="figures/2025-final-scores-histogram.png" width="33%">
-  <img src="figures/2025-rezultate-bar.png" width="33%">
-  <img src="figures/BUCURESTI-medii-licee-strip.png" width="33%">
+  <img src="figures/2025-final-scores-histogram.png" width="30%">
+  <img src="figures/2025-rezultate-bar.png" width="30%">
+  <img src="figures/BUCURESTI-medii-licee-strip.png" width="30%">
 </p>
 <p align="center">
   <img src="figures/2025-medii-judete-box.png" width="33%">
