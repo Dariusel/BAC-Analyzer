@@ -2,7 +2,7 @@
 
 **BAC Analyzer** is a Python project designed to parse, store, and analyze data from the Romanian *Bacalaureat* exam results. The tool collects detailed student performance data across the last **three sessions** (years) of the exam and provides visual analytics for trends, distributions, and school-level performance insights.
 
-
+> Project uses Python 3.12.3
 
 ---
 
